@@ -1,0 +1,33 @@
+p,h1,h2,a{
+    color:black;
+    text-align:center;
+}
+
+/*{
+ 
+    border:seashell solid
+}*/
+body{
+    background-color: teal;
+}
+.heading{
+    display:flex;
+    justify-content:unset;
+    flex-direction: column;
+ background-color: aqua;
+}
+.details{
+    display:flex;
+    flex-direction:column;
+    background-color:brown;
+}
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.media{
+    display:flex;
+    justify-content: flex-end;
+
+}
